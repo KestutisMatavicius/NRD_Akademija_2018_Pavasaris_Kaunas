@@ -1,0 +1,8 @@
+C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.EF\bin\Debug\netcoreapp2.0\akademij.EF.deps.json
+C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.EF\bin\Debug\netcoreapp2.0\akademij.EF.dll
+C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.EF\obj\Debug\netcoreapp2.0\akademij.EF.csproj.CoreCompileInputs.cache
+C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.EF\obj\Debug\netcoreapp2.0\akademij.EF.AssemblyInfoInputs.cache
+C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.EF\obj\Debug\netcoreapp2.0\akademij.EF.AssemblyInfo.cs
+C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.EF\bin\Debug\netcoreapp2.0\akademij.EF.pdb
+C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.EF\obj\Debug\netcoreapp2.0\akademij.EF.dll
+C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.EF\obj\Debug\netcoreapp2.0\akademij.EF.pdb
