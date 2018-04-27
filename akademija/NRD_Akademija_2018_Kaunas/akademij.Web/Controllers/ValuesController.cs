@@ -1,4 +1,4 @@
-﻿using akademij.EF.repositories;
+﻿using akademij.Application.main.employee;
 using Microsoft.AspNetCore.Mvc;
 
 namespace akademij.Web.Controllers
@@ -6,18 +6,19 @@ namespace akademij.Web.Controllers
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
-        protected readonly IEmployeeRepository _employeeRepository;
-        public ValuesController(IEmployeeRepository employeeRepository)
+        protected readonly IEmployeeService _employeeService;
+        public ValuesController(IEmployeeService employeeService)
         {
-            _employeeRepository = employeeRepository;
+            _employeeService = employeeService;
         }
 
 
         // GET api/values
         [HttpGet]
-        public void Get()
+        public IActionResult Get()
         {
-            _employeeRepository.GetEmployees();
+            var employees = _employeeService.GetAllEmployees();
+            return Ok(employees);
         }
 
         // GET api/values/5

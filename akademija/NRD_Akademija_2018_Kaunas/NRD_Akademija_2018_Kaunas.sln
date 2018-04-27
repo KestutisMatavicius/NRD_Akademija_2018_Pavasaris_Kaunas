@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "akademij.Web", "akademij.Web\akademij.Web.csproj", "{2CDFE560-317E-44EC-A5F7-50A9A6839078}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "akademij.EF", "akademij.EF\akademij.EF.csproj", "{BBD730C6-A695-4790-B99F-32E80409F07B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "akademij.EF", "akademij.EF\akademij.EF.csproj", "{BBD730C6-A695-4790-B99F-32E80409F07B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "akademij.Application", "akademij.Application\akademij.Application.csproj", "{4AE4015A-BEA3-4356-9DD3-E35564118D93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BBD730C6-A695-4790-B99F-32E80409F07B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBD730C6-A695-4790-B99F-32E80409F07B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBD730C6-A695-4790-B99F-32E80409F07B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AE4015A-BEA3-4356-9DD3-E35564118D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE4015A-BEA3-4356-9DD3-E35564118D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE4015A-BEA3-4356-9DD3-E35564118D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE4015A-BEA3-4356-9DD3-E35564118D93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

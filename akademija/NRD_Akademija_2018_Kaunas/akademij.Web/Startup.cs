@@ -1,5 +1,8 @@
-﻿using akademij.EF;
+﻿using akademij.Application.automapper;
+using akademij.Application.main.employee;
+using akademij.EF;
 using akademij.EF.repositories;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -32,6 +35,9 @@ namespace akademij.Web
             services.AddDbContext<NRDAkademijaKaunasContext>(options =>
         options.UseSqlServer(_configuration.GetConnectionString("AkademijaDatabase")));
             services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+            services.AddScoped<IEmployeeService, EmployeeService>();
+            services.AddAutoMapper(x => x.AddProfile(new MappingsProfile()));
+            services.AddCors();
             services.AddMvc();
         }
 
@@ -42,6 +48,10 @@ namespace akademij.Web
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseCors(builder =>
+                builder.WithOrigins("http://localhost:4200")
+           .AllowAnyHeader()
+           .AllowAnyMethod());
 
             app.UseMvc();
         }

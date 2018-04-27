@@ -1,0 +1,11 @@
+C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.Application\bin\Debug\netcoreapp2.0\akademij.Application.deps.json
+C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.Application\bin\Debug\netcoreapp2.0\akademij.Application.dll
+C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.Application\obj\Debug\netcoreapp2.0\akademij.Application.csprojResolveAssemblyReference.cache
+C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.Application\obj\Debug\netcoreapp2.0\akademij.Application.csproj.CoreCompileInputs.cache
+C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.Application\obj\Debug\netcoreapp2.0\akademij.Application.AssemblyInfoInputs.cache
+C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.Application\obj\Debug\netcoreapp2.0\akademij.Application.AssemblyInfo.cs
+C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.Application\bin\Debug\netcoreapp2.0\akademij.Application.pdb
+C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.Application\bin\Debug\netcoreapp2.0\akademij.EF.dll
+C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.Application\bin\Debug\netcoreapp2.0\akademij.EF.pdb
+C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.Application\obj\Debug\netcoreapp2.0\akademij.Application.dll
+C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.Application\obj\Debug\netcoreapp2.0\akademij.Application.pdb

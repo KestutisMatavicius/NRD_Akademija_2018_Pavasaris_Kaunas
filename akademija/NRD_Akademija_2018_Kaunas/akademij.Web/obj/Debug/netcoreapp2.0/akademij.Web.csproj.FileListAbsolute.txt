@@ -11,3 +11,5 @@ C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademi
 C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.Web\obj\Debug\netcoreapp2.0\akademij.Web.pdb
 C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.Web\bin\Debug\netcoreapp2.0\akademij.EF.dll
 C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.Web\bin\Debug\netcoreapp2.0\akademij.EF.pdb
+C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.Web\bin\Debug\netcoreapp2.0\akademij.Application.dll
+C:\Users\kma\Desktop\Akademijai_2018\NRD_Akademija_2018_Pavasaris_Kaunas\akademija\NRD_Akademija_2018_Kaunas\akademij.Web\bin\Debug\netcoreapp2.0\akademij.Application.pdb

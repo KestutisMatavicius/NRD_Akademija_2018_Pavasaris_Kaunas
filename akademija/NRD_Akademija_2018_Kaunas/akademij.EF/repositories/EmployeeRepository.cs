@@ -1,5 +1,7 @@
 ﻿using akademij.EF.entities;
 using akademija.EF.repositories;
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace akademij.EF.repositories
@@ -10,19 +12,12 @@ namespace akademij.EF.repositories
         {
         }
 
-        // public List<Employee> GetEmployees()
-        public void GetEmployees()
+        public List<Employee> GetEmployees()
         {
-            var kintamasis1 = NRDAkademijaKaunasContext.Employee.ToList();
-
-            var kint2 = NRDAkademijaKaunasContext.Employee.FirstOrDefault();
-
-            var kint3 = NRDAkademijaKaunasContext.Employee.SingleOrDefault(p => p.FirstName == "Tomas");
-            var kint4 = NRDAkademijaKaunasContext.Employee.Where(p => p.FirstName == "Kęstutis").Single();
-
-            var kint5 = NRDAkademijaKaunasContext.Inventory.ToList();
-
-            var kint6 = NRDAkademijaKaunasContext.Inventory.FirstOrDefault();
+            return NRDAkademijaKaunasContext.Employee
+                .Include(p => p.EmployeeInventory)
+                .ThenInclude(p => p.Inventory)
+                .ToList();
         }
 
 

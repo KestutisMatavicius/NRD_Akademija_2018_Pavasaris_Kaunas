@@ -309,7 +309,7 @@
           "lib/netcoreapp2.0/_._": {}
         },
         "build": {
-          "build/netcoreapp2.0/Microsoft.AspNetCore.All.targets": {}
+          "build/netcoreapp2.0/_._": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/2.0.2": {
@@ -1083,7 +1083,7 @@
           "Microsoft.AspNetCore.Mvc.RazorPages": "2.0.3"
         },
         "build": {
-          "build/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.targets": {}
+          "build/netstandard2.0/_._": {}
         }
       },
       "Microsoft.AspNetCore.Mvc.RazorPages/2.0.3": {
@@ -1985,7 +1985,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.dll": {}
         },
         "build": {
-          "build/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.targets": {}
+          "build/netstandard2.0/_._": {}
         }
       },
       "Microsoft.Extensions.Configuration.Xml/2.0.1": {
@@ -4788,20 +4788,6 @@
         },
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
-        }
-      },
-      "akademij.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "dependencies": {
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "3.2.0",
-          "akademij.EF": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/akademij.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/akademij.Application.dll": {}
         }
       },
       "akademij.EF/1.0.0": {
@@ -12625,11 +12611,6 @@
         "windowsazure.storage.nuspec"
       ]
     },
-    "akademij.Application/1.0.0": {
-      "type": "project",
-      "path": "../akademij.Application/akademij.Application.csproj",
-      "msbuildProject": "../akademij.Application/akademij.Application.csproj"
-    },
     "akademij.EF/1.0.0": {
       "type": "project",
       "path": "../akademij.EF/akademij.EF.csproj",
@@ -12638,9 +12619,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Microsoft.AspNetCore.All >= 2.0.7",
+      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 3.2.0",
       "Microsoft.NETCore.App >= 2.0.0",
-      "akademij.Application >= 1.0.0"
+      "akademij.EF >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12653,11 +12634,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\kma\\Desktop\\Akademijai_2018\\NRD_Akademija_2018_Pavasaris_Kaunas\\akademija\\NRD_Akademija_2018_Kaunas\\akademij.Web\\akademij.Web.csproj",
-      "projectName": "akademij.Web",
-      "projectPath": "C:\\Users\\kma\\Desktop\\Akademijai_2018\\NRD_Akademija_2018_Pavasaris_Kaunas\\akademija\\NRD_Akademija_2018_Kaunas\\akademij.Web\\akademij.Web.csproj",
+      "projectUniqueName": "C:\\Users\\kma\\Desktop\\Akademijai_2018\\NRD_Akademija_2018_Pavasaris_Kaunas\\akademija\\NRD_Akademija_2018_Kaunas\\akademij.Application\\akademij.Application.csproj",
+      "projectName": "akademij.Application",
+      "projectPath": "C:\\Users\\kma\\Desktop\\Akademijai_2018\\NRD_Akademija_2018_Pavasaris_Kaunas\\akademija\\NRD_Akademija_2018_Kaunas\\akademij.Application\\akademij.Application.csproj",
       "packagesPath": "C:\\Users\\kma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kma\\Desktop\\Akademijai_2018\\NRD_Akademija_2018_Pavasaris_Kaunas\\akademija\\NRD_Akademija_2018_Kaunas\\akademij.Web\\obj\\",
+      "outputPath": "C:\\Users\\kma\\Desktop\\Akademijai_2018\\NRD_Akademija_2018_Pavasaris_Kaunas\\akademija\\NRD_Akademija_2018_Kaunas\\akademij.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12676,8 +12657,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\kma\\Desktop\\Akademijai_2018\\NRD_Akademija_2018_Pavasaris_Kaunas\\akademija\\NRD_Akademija_2018_Kaunas\\akademij.Application\\akademij.Application.csproj": {
-              "projectPath": "C:\\Users\\kma\\Desktop\\Akademijai_2018\\NRD_Akademija_2018_Pavasaris_Kaunas\\akademija\\NRD_Akademija_2018_Kaunas\\akademij.Application\\akademij.Application.csproj"
+            "C:\\Users\\kma\\Desktop\\Akademijai_2018\\NRD_Akademija_2018_Pavasaris_Kaunas\\akademija\\NRD_Akademija_2018_Kaunas\\akademij.EF\\akademij.EF.csproj": {
+              "projectPath": "C:\\Users\\kma\\Desktop\\Akademijai_2018\\NRD_Akademija_2018_Pavasaris_Kaunas\\akademija\\NRD_Akademija_2018_Kaunas\\akademij.EF\\akademij.EF.csproj"
             }
           }
         }
@@ -12691,14 +12672,15 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "3.2.0"
+          },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "2.0.0",
             "autoReferenced": true
-          },
-          "Microsoft.AspNetCore.All": {
-            "target": "Package",
-            "version": "2.0.7"
           }
         },
         "imports": [

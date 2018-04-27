@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\akademij.EF\akademij.EF.csproj" />
+    <ProjectReference Include="..\akademij.Application\akademij.Application.csproj" />
   </ItemGroup>
 
 </Project>
